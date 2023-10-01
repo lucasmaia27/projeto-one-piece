@@ -7,7 +7,7 @@ botões.forEach((botao, indice) => {
         desselecionarPersonagem();
 
         botao.classList.add("selecionado")
-        personagens[indice].classList.add("selecioando")
+        personagens[indice].classList.add("selecionado")
     })
 })
 
@@ -19,5 +19,5 @@ function desselecionarBotao() {
 function desselecionarPersonagem() {
     const personagemSelecionado = document.querySelector(".personagem.selecionado");
     personagemSelecionado.classList.remove("selecionado");
-}
+}   
 
